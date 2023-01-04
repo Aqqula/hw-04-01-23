@@ -30,8 +30,18 @@ console.log(result);
 //Якщо число додатнє, парне, кратне 3 і 6 одночасно - вивести win, інакше - lose.
 //Першим обробляти варіант з lose.
 
-const number = 12;
-if () {
-    
+//varian 1
+const number = 9;
+if (number < 0 || number % 2 || (number % 3 && number % 6)){
+    console.log('lose');
+}else {
+    console.log('win');
 }
 
+//variant 2
+// const number = 12;
+// if (number > 0 && number % 2 === 0 && number % 3 === 0 && number % 6 === 0) {
+//     console.log('win');
+// }else {
+//     console.log('lose');
+// }
